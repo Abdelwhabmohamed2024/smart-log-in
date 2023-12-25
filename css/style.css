@@ -1,0 +1,90 @@
+#welcomePage button{
+width: 100px;
+border-color: #ffc107;
+color: #fff;
+transition: all 0.5s;
+}
+#welcomePage button:hover{
+    background-color: #ffc107;
+
+}
+
+#welcomePage{
+    display: none;
+}
+#signUpPage{
+    display: none;
+}
+body{
+    background-image: url(../img/3d-grunge-room-interior-with-spotlight-smoky-atmosphere-background_1048-11333.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar{
+    background-image: url(../img/red-black-brush-stroke-banner-background-perfect-canva_1361-3597.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#signUpPage .row{
+    background-image: url(../img/elegant-smoke-wallpaper-background-dark-design_53876-146676.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#loginPage .row{
+    background-image: url(../img/red-light-round-podium-black-background-mock-up_43614-950.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+#welcomePage .container .row{
+    background-image: url(../img/vintage-grunge-blue-concrete-texture-studio-wall-background-with-vignette_1258-28513.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+#loginPage button{
+    background-color: transparent;
+    border-color: #fff;
+    width: 50%;
+    transition: 0.5s;
+    color: #fff;
+}
+#loginPage button:hover{
+    background-color: #ff7f07;
+}
+#signUpPage button{
+    background-color: transparent;
+    border-color: #fff;
+    width: 50%;
+    transition: 0.5s;
+    color: #fff;
+}
+#signUpPage button:hover{
+    background-color: teal;
+}
+h2{
+    font-size: 50px;
+    font-weight: 600;
+    color: #ff4907;
+    margin-bottom: 20px;
+}
+
+.buttnn{
+    
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttnn button{
+  
+    background-color: #ff8b07;
+
+}
+
+#showHim{
+    display: none;
+}
